@@ -1,0 +1,43 @@
+h1,h2,h3{
+
+    margin: 0px ;
+}
+h1{
+    font-size: 12rem ;
+}
+h2{
+    font-size: 3rem ;
+}
+h3{
+    font-size: 1.4rem ;
+}
+
+
+
+.newpad{
+    background-color: white;
+    border: 3px solid rgb(223, 133, 15);
+    padding: 0px;
+   display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    max-width: 220px;
+    height: 70px;
+  /*  margin-left: 15rem;
+    margin-right: 15rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;*/
+}
+.Row
+{
+    display: table;
+   margin-top: 20rem;
+   margin-left: 20rem;
+   width: 50%;
+     /*Optional*/
+}
+.Column
+{
+    display: table-cell;
+   
+}
